@@ -1,0 +1,21 @@
+java version "22.0.1" 
+
+Компиляция:
+javac -d out util.java
+
+Создание jar файла:
+jar cfm util.jar manifest.txt -C out .
+
+Запуск:
+java -jar util.jar <входные файлы>
+
+
+
+
+
+
+
+
+
+
+
